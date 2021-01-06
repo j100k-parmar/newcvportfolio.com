@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    height: 40px;
+    width: 100%;
+    background-color:#ffaa80;
+}
+.menu{
+    width: 50%;
+}
+.menu ul{
+    width: 100%;
+
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 9px;
+    font-size: 18px;
+    color: black;
+
+} 
+/* .menu ul li a{ */
+    /* color: #4da6ff; */
+/* } */
+
+.menu ul li:hover{
+    color:white;
+    
+}
+.social{
+    /* width: 50%; */
+    margin-left: 1000px;
+}
+.social ul{
+    color: rgb(107, 114, 179);
+    margin-left: 170px;
+    margin-top: -20px;
+    font-size: 22px;
+}
+.social ul li{
+    display: inline-block;
+    margin-left: 25px;
+    
+    
+}
+#name{
+    width: 100%;
+    height: 70vh;
+    background-image:url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bio{
+    margin: auto;
+    padding-top: 200px;
+    padding-left: 200px;
+}
+.bio h1{
+    font-size: 90px;
+    color: white;
+    font-family: 'Aleo', serif;
+}
+.bio h2{
+    font-size: 30px;
+    color:white;
+    font-family: 'Aleo', serif;
+}
+.h2{
+    background-color: #ffaa80;
+    width: 555px;
+    padding-left: 15px;
+}
+#about{
+    width: 100%;
+    height: 64vh;
+}
+#about img{
+    width: 675px;
+    float: left;
+}
+.details{
+    background-color: #ffaa80 ;
+    width: 615px;
+    height: 35vh;
+    float: left;
+    margin-top: 90px;
+    margin-left: -198px;
+}
+.details h1{
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+.line{
+    height: 8px;
+    width: 445px;
+    background-color: white;
+    margin-left: 75px;
+    margin-top: 10px;
+}
+.details p{
+    color: white;
+    margin-top: 15px;
+    font-size: 20px;
+    width: 445px;
+    margin-left: 75px;
+}
+#education{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h1{
+    height: 100vh;
+    width: 30%;
+    float: left;
+}
+.h1 h1{
+    font-weight: 700;
+    font-size: 50px;
+     margin-top: 240px; 
+    margin-left: 200px;
+    color:#ffaa80 ;
+}
+.line2{
+    height: 8px;
+    width: 389px;
+    background-color: white;
+    margin-left: 132px;
+    position: relative;
+    top: 313px
+}
+.institute{
+    float: left;
+    height: 100vh;
+    width: 55%;
+    margin-left:200px;
+
+}
+.a{
+    margin: auto;
+    padding-left: 50px;
+    text-align: center;
+    padding-top: 5px;
+    width: 100%;
+    
+}
+.a a{
+    color:rgb(15, 15, 56);
+    text-decoration:none;
+}
+.kkv{
+    height: 50px;
+    width: 50px;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding-top: 18px;
+    margin: auto;
+}
+.kkv img{
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin-left: -415px;
+    margin-top: 15px;
+    border-radius: 50%;
+   
+}
+.school{
+    text-align: center;
+    /* padding-top: 120px; */
+    padding-left: 88px;
+    color:white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.fnt{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 85px;
+    color: white;
+    
+}
+.board{
+   /* float: left; */
+   padding-left: 150px;
+   margin: auto;
+   background-color:#ffaa80 ;
+   height: 200px;
+   width: 200px;
+    margin-top: 40px;
+  
+}
+.info{
+    float: left;
+    margin-top: -34px;
+    margin-left: -210px;
+}
+.project{
+    width: 100%;
+    height: 70vh;
+    margin-top: -50px;
+    background-image: url(../img/project-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+ }
+ .template{
+     width: 100%;
+     text-align: center;
+     color:gray;
+     margin-top: 50px;
+     font-size: 40px;
+     font-weight: 700;
+ }
+ .example{
+     float: left;
+     width: 23%;
+     height: 250px;
+     border: 2px solid black;
+     margin-left: 20px;
+     margin-top: 100px;
+ }
+ .example img{
+     width: 350px;
+     height:250px;
+     overflow: hidden;
+ }
+ .center{
+    width:100%;
+    height:500px;
+    padding-top:40px;
+    background-image:url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing:border-box;
+    float: left;
+ 
+}
+.center h1{
+    margin: 0;
+    padding: 0;
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.skillBox
+{
+    box-sizing: border-box;
+    width: 90%;
+    margin:10px 0;
+}
+.skillBox p{
+    color:#ffaa80;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    padding: 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.skillBox p:nth-child(2)
+{
+    float: right;
+    position: relative;
+    top: -25px;
+}
+.skill{
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ffaa80;
+    border-radius: 2px;
+}
+.skill_level{
+    background-color:#ffaa80;
+    width: 100%;
+    height: 10px;
+}
+.skills{
+    width: 100%;
+    height: 500px;
+    /* margin-top: 40px; */
+}
+.technical{
+    width: 50%;
+    height:500px;
+    font-family: 'Volkhov', serif;
+    float: left;
+}
+.personal{
+    width: 50%;
+    height:500px;
+    float: left;
+    background-image: url(../img/strength.jfif);
+    background-repeat: no-repeat;
+}
+.personal h1{
+    text-align: center;
+    font-size: 40px;
+    color: #ffaa80;
+    padding-top: 25px;
+
+}
+.personal ul li{
+
+    font-size: 25px;
+    padding-top: 50px;
+    padding-left: 400px;
+    list-style: none;
+    color:gray;
+
+ }
+#contact{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(../img/contact-bg.jpg);
+    background-repeat:no-repeat;
+    background-position: left;
+}
+#contact h1{
+    /* width: 200px; */
+    text-align: right;
+    font-size: 40px;
+    color:white;
+    padding-top: 25px;
+    padding-right: 30px;
+}
+.gray{
+    width: 200px;
+    height: 100vh;
+    background-image: url(../img/bg.jpg);
+    margin-left: 1300px;
+    margin-top: -400px;
+    float: left;
+}   
+.address{
+    float: left;
+    width: 550px;
+    height: 400px;
+    background-color: #ffaa80;
+    position: relative;
+    top: 200px;
+    left:850px;    
+}
+.line3{
+    height: 5px;
+    width: 389px;
+    background-color: white;
+    margin-left: 132px;
+    
+}
+.p{
+    text-align: right;
+    margin-top: 30px;
+    margin-right: 30px;
+    font-size: 25px;
+    color: white;
+}
+
